@@ -14,11 +14,11 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'My Portfolio Website',
       theme: ThemeData(
-        fontFamily: 'Exo',
+        // fontFamily: 'Exo',
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const LandingScreen(),
+      home: const HomeScreen(),
     );
   }
 }
